@@ -8,6 +8,7 @@
     "dev:backend": "node server/index.js",
     "dev": "concurrently -n \"CLIENT,SERVER\" -c \"cyan,magenta\" \"vite\" \"node server/index.js\"",
     "build": "vite build",
+    "test": "node --test test/pipeline.test.js",
     "preview": "vite preview",
     "start": "node server/index.js"
   },
